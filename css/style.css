@@ -1,0 +1,37 @@
+body {
+  background-color: rgb(230, 230, 230) !important;
+}
+
+.row > .col-4 {
+  border-left: 2px solid black;
+  padding-left: 2%;
+}
+
+.header {
+  margin-top: 1% !important;
+}
+.time {
+  text-align: end;
+}
+
+.crew {
+  text-align: center;
+  border-style:ridge;
+  margin-bottom: 3%;
+}
+
+#map {
+    min-height: 500px;
+    height: 100%;
+    border-radius: 12px;
+  }
+
+div.col-4 div.row div { 
+  border: 1px solid #CCC;
+  padding: 10px;
+  background: #FFFFFF;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  text-align: center;  
+}
