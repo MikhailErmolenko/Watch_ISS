@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Watch ISS</title>
+    <script src="https://polyfill.io/v3/polyfill.js?features=default"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script type="text/javascript" src="scripts/jquery.js"></script>
+  </head>
+  <body>
+    <section class="container">
+      <div class="row">
+        <div class="col-8 header">
+          <div class="row">
+            <div class="col coords">
+              <h3>IIS is now located at:</h3>
+              <p id="coordinates"></p>
+            </div>
+            <div class="col time">
+              <h3>UTC time:</h3>
+              <p id="time"></p>
+            </div>
+          </div>
+          <div class="row">   
+            <div class="col">       
+            <div id="map"></div>
+              <script
+              src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAlbhM-HM4XJyBjT3jYnqbhTpgD5rm9VI8&callback=initMap&v=weekly"
+              defer>
+              </script>
+            </div>
+          </div>
+        </div>
+          <div class="col-4 header">
+            <div class="row crew">
+              <h3>Total amount:</h3>
+              <p id="amount"></p>
+            </div>
+            <div class="row" id="crew">
+              <div id="a">                
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+        
+    <script src="scripts/myscript.js"></script>
+  </body>
+</html>
+
